@@ -1,0 +1,209 @@
+body{
+    background-color: black;
+    color:white;
+    margin: 0px;
+    
+}
+header{
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    z-index: 12;
+}
+.nav-bar{
+    /* border: 1px solid yellow; */
+    padding: 0px 20px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.nav-menu{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    gap:25px;
+}
+.nav-menu a{
+    text-decoration: none;
+    color: white;
+}
+.social-links{
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    gap:10px;
+    position: relative;
+}
+.insta{
+    position: absolute;
+    left: -70px;
+    bottom: -17px;
+}
+.pizza-img{
+   width: 98.5vw;
+   height: 90vh;
+}
+.pizza-main{
+    /* border: 2px solid purple; */
+    position: relative;
+}
+.pizza-heading{
+    font-weight: bold;
+    font-size:70px;
+}
+.pizza-heading p{
+    margin: 0px;
+}
+.red-box{
+    background-color:#F24C4C;
+    width:300px;
+    height: 7px;
+
+}
+.pizza-text{
+    /* border: 1px solid pink; */
+    padding:0px 5px;
+    line-height: 1.5;
+    width:300px;
+
+}
+.pizza-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap:25px;
+    z-index: 10;
+    position: absolute;
+    top:50px;
+    left:70px;
+}
+.three-content{
+    margin: 60px;
+
+}
+.about-us{
+    /* border: 2px solid green; */
+    
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.about-heading{
+    width:35%;
+    text-align: center;
+    font-size: 50px ;
+    border-bottom:5px solid #B62828;
+    margin: auto;   
+}
+.about-content{
+    /* border: 2px solid green;   */
+    display: flex;
+    flex-direction: row;
+}
+.about-hr{
+    background-color: #F24C4C;
+    height: 4px;
+    border: none;
+   
+}
+.about-text{
+    line-height: 2;
+    padding: 100px 30px 30px 30px;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    margin:50px;
+    gap:20px;
+}
+.menu-heading{
+    width:35%;
+    text-align: center;
+    font-size: 50px ;
+    border-bottom:5px solid #B62828;
+    margin: auto;   
+}
+.menu-text{
+    line-height: 2;
+    font-size: 20px;
+}
+
+.grid-container{
+    /* border: 1px solid blue; */
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.grid-item{
+    display: flex;
+    gap: 5px;
+}
+.grid-heading{
+    color:#F2C94C;
+
+}
+.find-us{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.find-heading{
+    width:35%;
+    text-align: center;
+    font-size: 50px ;
+    border-bottom:5px solid #B62828;
+    margin: auto;  
+}
+.find-box{
+    /* border: 1px solid yellow; */
+    display: flex;
+    gap:100px;
+    margin: 10px;
+    padding: 20px;
+}
+.find-left-text{
+    font-size: 20px;
+    line-height: 2;
+}
+.find-location{
+    display: flex;
+    align-items: center;
+}
+.find-phone{
+    /* border: 1px solid purple; */
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-left: 20px;
+}
+.find-phone-text{
+    line-height: 1.5;
+}
+.base{
+    /* border: 1px solid white; */
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+.base-contact{
+    display: grid;
+    grid-template-columns: repeat(2,90px);
+    padding-right: 150px;
+    row-gap: 10px;
+}
+.base-text{
+    margin: 2px 0px 10px 0px;
+    line-height: 1.5;
+}
+
+@media (max-width:600px){
+    .nav-bar{
+        /* border: 1px solid yellow; */
+        padding: 0px 10px;
+    
+    }
+ 
+}
+
